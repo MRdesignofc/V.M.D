@@ -47,10 +47,11 @@ img {
   backdrop-filter: blur(10px);
 }
 
-.nav-logo {
-  font-size: 1.5rem;
-  font-weight: 700;
-  letter-spacing: 2px;
+.nav-logo img {
+
+height:40px;
+width:auto;
+
 }
 
 .nav-links {
