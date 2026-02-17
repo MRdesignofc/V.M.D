@@ -1,4 +1,4 @@
-/* Global Style */
+/* Global Styles */
 :root {
   --primary-color: #d3004a;
   --secondary-color: #262626;
@@ -398,12 +398,4 @@ img {
   .nav-links {
     display: none; /* Simplify navigation for small screens; could add hamburger in script */
   }
-}
-.card-video{
-
-width:100%;
-height:180px;
-object-fit:cover;
-border-radius:10px;
-
 }
