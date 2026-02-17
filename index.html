@@ -1,211 +1,146 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>V.M.D — Protótipo Moderno</title>
-    <!-- Google Fonts -->
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Font Awesome for icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-      integrity="sha512-T2N5mTWC1kxgUq+4JDlXKy9B13sCMwxmRHbVNkczM7NKsAQsj/2Ix87V7bCMaSgvfT+y3a8SijJFEsg2TbPTtw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header id="hero">
-      <nav class="nav">
-        <div class="nav-logo">V.M.D</div>
-        <ul class="nav-links">
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#precos">Preços</a></li>
-          <li><a href="#portfolio">Portfólio</a></li>
-          <li><a href="#horarios">Horários</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-      <div class="hero-content">
-        <h1><span class="text-highlight">Design</span> Moderno e Criativo</h1>
-        <p class="tagline">
-          Artes, identidade visual e servidores Discord personalizados para elevar sua presença online.
-        </p>
-        <a href="#contato" class="cta-button">Entre em Contato</a>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>V.M.D — Visual Modern Design</title>
 
-    <section id="sobre" class="section">
-      <div class="container">
-        <h2>Sobre a V.M.D</h2>
-        <p>
-          A V.M.D é uma equipe especializada em design, artes profissionais,
-          identidade visual e configuração completa de servidores Discord. Nosso
-          foco é a qualidade, estética e eficiência — entregando desde logos
-          modernas e overlays até servidores otimizados e seguros, prontos
-          para uso. Profissionalismo, criatividade e comprometimento são o
-          padrão V.M.D.
-        </p>
-        <img
-          src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80"
-          alt="Equipe criativa trabalhando"
-          class="about-image"
-        />
-      </div>
-    </section>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
-    <section id="precos" class="section dark-section">
-      <div class="container">
-        <h2>Tabela de Preços</h2>
-        <div class="cards">
-          <div class="card" data-delay="0">
-            <img
-              src="assets/img/overlays.png"
-              alt="Overlays para lives"
-            />
-            <h3>Overlays para Lives</h3>
-            <p class="desc">Pacotes estáticos, personalizados e animados para suas transmissões ao vivo.</p>
-            <p class="price">R$70 – R$300+</p>
-          </div>
-          <div class="card" data-delay="100">
-            <img
-              src="assets/img/identidade.png"
-              alt="Identidade visual"
-            />
-            <h3>Identidade Visual</h3>
-            <p class="desc">Criação de logos, paleta de cores e identidade completa para sua marca.</p>
-            <p class="price">R$120 – R$800</p>
-          </div>
-          <div class="card" data-delay="200">
-            <img
-              src="assets/img/servidor.png"
-              alt="Servidor Discord"
-            />
-            <h3>Servidor Discord</h3>
-            <p class="desc">Configuração básica a avançada, com organização, bots e segurança.</p>
-            <p class="price">R$120 – R$800</p>
-          </div>
-          <div class="card" data-delay="300">
-            <img
-              src="assets/img/bots.png"
-              alt="Configuração de Bots"
-            />
-            <h3>Configuração de Bots</h3>
-            <p class="desc">Automatize com bots personalizados, de básicos a avançados.</p>
-            <p class="price">R$50 – R$500</p>
-          </div>
-          <div class="card" data-delay="400">
-            <img
-              src="assets/img/painels.png"
-              alt="Painéis Twitch"
-            />
-            <h3>Painéis Twitch</h3>
-            <p class="desc">Painéis simples, pacotes completos e animados para seu canal.</p>
-            <p class="price">R$30 – R$300+</p>
-          </div>
-        </div>
-      </div>
-    </section>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
 
-    <section id="portfolio" class="section">
-      <div class="container">
-        <h2>Portfólio</h2>
-        <p class="subtitle">Veja alguns de nossos trabalhos recentes.</p>
-        <div class="gallery">
-          <img
-            src="https://images.unsplash.com/photo-1544716278-e513176f20b5?auto=format&fit=crop&w=800&q=80"
-            alt="Projeto 1"
-          />
-          <img
-            src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80"
-            alt="Projeto 2"
-          />
-          <img
-            src="https://images.unsplash.com/photo-1522202222202-068462c3d6b9?auto=format&fit=crop&w=800&q=80"
-            alt="Projeto 3"
-          />
-          <img
-            src="https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=800&q=80"
-            alt="Projeto 4"
-          />
-        </div>
-        <a
-          href="https://www.canva.com"
-          target="_blank"
-          class="cta-button secondary"
-          >Ver portfólio completo</a
-        >
-      </div>
-    </section>
+</head>
+<body>
 
-    <section id="horarios" class="section dark-section">
-      <div class="container">
-        <h2>Horário de Atendimento</h2>
-        <div class="schedule">
-          <div class="schedule-item"><span>Seg, Ter, Qua e Sex:</span> 16h–23h</div>
-          <div class="schedule-item"><span>Qui:</span> 16h–19h</div>
-          <div class="schedule-item"><span>Sáb:</span> 14h–23h</div>
-          <div class="schedule-item"><span>Dom:</span> 09h–19h</div>
-        </div>
-        <p class="notice">
-          Mensagens fora do horário serão respondidas no próximo atendimento ou
-          quando houver equipe online.
-        </p>
-      </div>
-    </section>
+<header id="hero">
+  <nav class="nav">
+    <div class="nav-logo">V.M.D</div>
 
-    <section id="contato" class="section">
-      <div class="container">
-        <h2>Contato</h2>
-        <p>Para encomendas, dúvidas ou suporte, envie-nos uma mensagem:</p>
-        <form class="contact-form">
-          <div class="form-group">
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" placeholder="Seu nome" />
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="Seu email" />
-          </div>
-          <div class="form-group full">
-            <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" rows="4" placeholder="Como podemos ajudar?"></textarea>
-          </div>
-          <button type="submit" class="cta-button">Enviar Mensagem</button>
-        </form>
-        <p class="alternative">
-          Ou abra um ticket em nosso
-          <a href="https://discord.gg" target="_blank">Discord</a>.
-        </p>
-      </div>
-    </section>
+    <ul class="nav-links">
+      <li><a href="#precos">Serviços</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
 
-    <footer class="footer">
-      <div class="container">
-        <p>&copy; 2026 — V.M.D Visual Modern Design • Todos os direitos reservados.</p>
-        <div class="social-links">
-          <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
-          <a href="https://x.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-          <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-        </div>
-      </div>
-    </footer>
+  <div class="hero-content">
+    <h1><span class="text-highlight">Visual</span> Modern Design</h1>
+    <p>Design profissional para streamers, servidores e marcas</p>
+    <a href="#contato" class="cta-button">Solicitar serviço</a>
+  </div>
+</header>
 
-    <script src="script.js"></script>
-    <script src="//code.tidio.co/0joiycdturdrymh0bk44emdgxnyve1nv.js" async></script>
-  </body>
+
+<section id="precos" class="section dark-section">
+
+  <div class="container">
+
+    <h2>Serviços</h2>
+
+    <div class="cards">
+
+      <!-- OVERLAYS -->
+      <div class="card">
+
+        <video autoplay muted loop playsinline class="card-video">
+          <source src="assets/video/overlays.mp4" type="video/mp4">
+        </video>
+
+        <h3>Overlays</h3>
+        <p class="desc">Overlays animados e profissionais</p>
+        <p class="price">R$70 – R$300</p>
+
+      </div>
+
+
+      <!-- IDENTIDADE -->
+      <div class="card">
+
+        <video autoplay muted loop playsinline class="card-video">
+          <source src="assets/video/identidade.mp4" type="video/mp4">
+        </video>
+
+        <h3>Identidade Visual</h3>
+        <p class="desc">Logo, cores e branding completo</p>
+        <p class="price">R$120 – R$800</p>
+
+      </div>
+
+
+      <!-- DISCORD -->
+      <div class="card">
+
+        <video autoplay muted loop playsinline class="card-video">
+          <source src="assets/video/discord.mp4" type="video/mp4">
+        </video>
+
+        <h3>Servidor Discord</h3>
+        <p class="desc">Servidor completo e profissional</p>
+        <p class="price">R$120 – R$800</p>
+
+      </div>
+
+
+      <!-- BOTS -->
+      <div class="card">
+
+        <video autoplay muted loop playsinline class="card-video">
+          <source src="assets/video/bots.mp4" type="video/mp4">
+        </video>
+
+        <h3>Bots personalizados</h3>
+        <p class="desc">Automação completa</p>
+        <p class="price">R$50 – R$500</p>
+
+      </div>
+
+
+      <!-- PAINEIS -->
+      <div class="card">
+
+        <video autoplay muted loop playsinline class="card-video">
+          <source src="assets/video/painels.mp4" type="video/mp4">
+        </video>
+
+        <h3>Painéis Twitch</h3>
+        <p class="desc">Painéis animados</p>
+        <p class="price">R$30 – R$300</p>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<section id="contato" class="section">
+
+  <div class="container">
+
+    <h2>Contato</h2>
+
+    <form class="contact-form">
+
+      <input type="text" placeholder="Nome">
+      <input type="email" placeholder="Email">
+
+      <textarea placeholder="Mensagem"></textarea>
+
+      <button class="cta-button">Enviar</button>
+
+    </form>
+
+  </div>
+
+</section>
+
+
+<script src="script.js"></script>
+ <script src="//code.tidio.co/0joiycdturdrymh0bk44emdgxnyve1nv.js" async></script>
+</body>
 </html>
