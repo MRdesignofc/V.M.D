@@ -47,10 +47,17 @@ img {
   backdrop-filter: blur(10px);
 }
 
-.nav-logo img {
+.nav-logo{
 
-height:40px;
-width:auto;
+display:flex;
+align-items:center;
+gap:10px;
+
+}
+
+.nav-logo img{
+
+height:35px;
 
 }
 
